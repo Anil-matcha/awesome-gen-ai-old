@@ -2,6 +2,11 @@
 
 Automatically remove silence from your video
 
+## Related Projects
+
+- [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) — Full AI pipeline: detect highlights, transcribe, and auto-crop to 9:16 Shorts
+- [ai-clipping-comfyui](https://github.com/Anil-matcha/ai-clipping-comfyui) — AI video clipping nodes for ComfyUI
+
 ### Youtube tutorial -> https://youtu.be/O8sgcHyXGLI
 
 ### Medium article -> https://medium.com/@anilmatcha/autoshorts-ai-ai-silence-remover-in-python-tutorial-2ff1062a0150
