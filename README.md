@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://twitter.com/anil_matcha">
+  <a href="https://twitter.com/matchaman11">
     <img src="https://img.shields.io/badge/Follow%20on%20𝕏-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter">
   </a>
   <a href="https://www.linkedin.com/in/anilmatcha/">
