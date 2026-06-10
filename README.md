@@ -1,10 +1,4 @@
 <p align="center">
-  <a href="https://muapi.ai">
-    <img src="https://cdn.muapi.ai/data/2/319300472208/muapi-banner.png" width="900px" alt="MuAPI — Generative AI Platform">
-  </a>
-</p>
-
-<p align="center">
   <a href="https://twitter.com/anil_matcha">
     <img src="https://img.shields.io/badge/Follow%20on%20𝕏-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter">
   </a>
@@ -23,8 +17,7 @@
 Image Generators · Video Tools · Virtual Try-Ons · AI SaaS Templates · Platform Integrations</p>
 
 <p>
-<strong>Every template is production-ready with Google OAuth · Stripe Billing · One-click Vercel deploy</strong><br/>
-<strong>Powered by <a href="https://muapi.ai">muapi.ai</a> — 100+ AI models via a single API</strong>
+<strong>Every template is production-ready with Google OAuth · Stripe Billing · One-click Vercel deploy</strong>
 </p>
 
 <p>
@@ -41,7 +34,6 @@ Image Generators · Video Tools · Virtual Try-Ons · AI SaaS Templates · Platf
 <a href="#-e-commerce--product-photography"><kbd> &nbsp; 🛒 E-commerce &nbsp; </kbd></a>
 <a href="#-writing--content"><kbd> &nbsp; ✍️ Writing &nbsp; </kbd></a>
 <a href="#-platform-integrations"><kbd> &nbsp; 🔧 Integrations &nbsp; </kbd></a>
-<a href="https://muapi.ai/access-keys"><kbd> &nbsp; 🔑 Get API Key &nbsp; </kbd></a>
 </p>
 
 </div>
@@ -58,7 +50,7 @@ You shouldn't have to rebuild authentication, billing, AI polling, and webhook h
 - ⚡ **Deploy in 3 steps** — fork → set env vars → push to Vercel. No broken configs.
 - 💳 **Monetization built-in** — Stripe credit billing, webhook fulfillment, and a pricing page in every template.
 - 🔐 **Auth included** — Google OAuth + NextAuth + Prisma session management out of the box.
-- 🤖 **100+ AI models** — swap between image, video, audio, and enhancement models via [muapi.ai](https://muapi.ai) without changing your app code.
+- 🤖 **100+ AI models** — swap between image, video, audio, and enhancement models without changing your app code.
 - 🆓 **MIT licensed** — fork it, ship it, sell it.
 
 > ⭐ **If this saves you time, [star the repo](https://github.com/Anil-matcha/awesome-generative-ai-apps/stargazers) — that's how the next developer finds it.**
@@ -77,15 +69,13 @@ cd <template-name>
 # 2. Set up environment variables
 cp .env.example .env
 # Fill in: DATABASE_URL, NEXTAUTH_SECRET, GOOGLE_CLIENT_ID/SECRET,
-#          STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, MUAPIAPP_API_KEY
+#          STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, AI_API_KEY
 
 # 3. Initialize DB and start
 npx prisma db push && npm run dev
 ```
 
 Or deploy instantly with the **Deploy to Vercel** button in each template's README.
-
-**Get your free muapi.ai API key → [muapi.ai/access-keys](https://muapi.ai/access-keys)**
 
 ---
 
@@ -217,8 +207,6 @@ Or deploy instantly with the **Deploy to Vercel** button in each template's READ
 
 ## 🔧 Platform Integrations
 
-Connect muapi.ai to your favourite tools and workflows:
-
 | Integration | Description | Install |
 |---|---|---|
 | [Claude Code Plugin](https://github.com/SamurAIGPT/muapi-claude-code) | Generate images, videos & audio directly in Claude Code | `claude mcp add muapi -- npx -y muapi-claude-code` |
@@ -237,21 +225,11 @@ Every SaaS template in this catalog is built on the same production-ready founda
 ```
 Next.js 14 (App Router)  ·  Prisma ORM  ·  PostgreSQL (Supabase / Neon)
 NextAuth (Google OAuth)  ·  Stripe Checkout + Webhooks  ·  Tailwind CSS
-muapi.ai AI engine       ·  Vercel deployment
+Vercel deployment
 ```
 
 The base template (no AI logic, just auth + billing + webhooks) is available at:
 **[github.com/SamurAIGPT/ai-saas-starter](https://github.com/SamurAIGPT/ai-saas-starter)**
-
----
-
-## 🔑 Get Your API Key
-
-All templates use [muapi.ai](https://muapi.ai) as the AI engine — one API for 100+ models across image, video, audio, and enhancement.
-
-1. Sign up free at **[muapi.ai](https://muapi.ai)**
-2. Get your key at **[muapi.ai/access-keys](https://muapi.ai/access-keys)**
-3. Add it as `MUAPIAPP_API_KEY` in your `.env`
 
 ---
 
