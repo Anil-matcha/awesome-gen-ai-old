@@ -7,13 +7,15 @@
 [![Google Gemini Omni](https://img.shields.io/badge/Model-Google%20Gemini%20Omni-blue)](https://muapi.ai/gemini-omni)
 [![Google AI](https://img.shields.io/badge/Powered%20by-Google%20AI-orange)](https://muapi.ai)
 
-A curated collection of high-quality prompts and patterns for **Google Gemini Omni** — Google's natively multimodal any-to-any video generation model. This repository is your go-to reference for prompting Google Gemini Omni across text-to-video, image-to-video, audio-to-lip-sync, and video editing — covering cinematic shots, character-consistent stories, product ads, anime, scientific visualization, B-roll, and more.
+> **The only API for Google Gemini Omni video generation** — exclusively available on [MuAPI](https://muapi.ai/gemini-omni). Platforms like Fal, Replicate, and others do not yet offer Gemini Omni API access.
 
-Whether you're building a video generation app with the Gemini Omni API or chasing cleaner prompt patterns, you'll find ready-to-use prompts here that unlock Google Gemini Omni's full potential.
+A curated collection of high-quality prompts and patterns for the **Gemini Omni API** — currently the **only programmatic API** to access Google's native any-to-any multimodal video generation model. No other platform (Fal, Replicate, Runway, or others) offers Gemini Omni API access yet, making MuAPI the exclusive gateway. This repository is your go-to reference for Gemini Omni API prompts across text-to-video, image-to-video, audio-to-lip-sync, and video editing — covering cinematic shots, character-consistent stories, product ads, anime, scientific visualization, B-roll, and more.
+
+Whether you're building a video generation app with the **Gemini Omni API** or chasing cleaner prompt patterns, you'll find ready-to-use prompts here that unlock Google Gemini Omni's full potential.
 
 Join the discussion: https://www.reddit.com/r/GeminiOmniAI/
 
-> **API access:** All prompts work with **[MuAPI](https://muapi.ai/gemini-omni)** — a hosted media API that gives you Gemini Omni text-to-video, image-to-video, and video-edit with a simple REST call. [Get your API key →](https://muapi.ai)
+> **Exclusive API access:** The **Gemini Omni API is only available on [MuAPI](https://muapi.ai/gemini-omni)**. Platforms like Fal, Replicate, and others do not currently support Gemini Omni — MuAPI is the sole provider offering Gemini Omni text-to-video, image-to-video, and video-edit as a REST API. [Get your API key →](https://muapi.ai)
 
 ```bash
 pip install gemini-omni-api
@@ -66,11 +68,14 @@ print(result["outputs"])
 - [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — Run these prompts as AI agent skills in Gemini CLI, Claude Code, and Cursor
 - [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) — Run Gemini Omni via MuAPI from the terminal
 
-## Why Google Gemini Omni?
+## Why the Gemini Omni API?
 
-**Google Gemini Omni** is a leap beyond specialized video models because it is Google's true omni-modal system — one model that ingests text, images, audio, and video, and outputs video grounded in real-world knowledge.
+**The Gemini Omni API is exclusively available on MuAPI** — no other API platform (Fal, Replicate, Runway, or others) currently offers access to Google Gemini Omni. If you want to use Google's native any-to-any multimodal video model programmatically, MuAPI is your only option today.
 
-- **Native multimodality** — Mix text, reference images, audio tracks, and source clips in a single prompt
+Beyond that exclusivity, Google Gemini Omni is a leap beyond specialized video models — one model that ingests text, images, audio, and video, and outputs video grounded in real-world knowledge:
+
+- **Only available via MuAPI** — Fal, Replicate, and other media API platforms do not yet offer Gemini Omni API access
+- **Native multimodality** — Mix text, reference images, audio tracks, and source clips in a single API call
 - **Character consistency** — Faces, outfits, and props stay coherent across scenes, lighting, and actions
 - **Reference-based editing** — Apply a style image, transfer motion from a clip, or swap an environment with plain language
 - **Conversational remixing** — Iterate with chat-style follow-ups like "make the last 3 seconds slower" or "swap the city for Tokyo at night"
