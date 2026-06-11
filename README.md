@@ -68,6 +68,8 @@ print(result["outputs"])
 - [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — Run these prompts as AI agent skills in Gemini CLI, Claude Code, and Cursor
 - [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) — Run Gemini Omni via MuAPI from the terminal
 
+- [Awesome Claude Fable 5](https://github.com/Anil-matcha/awesome-claude-fable-5) — Curated real-world use cases, tutorials, and benchmarks for Claude Fable 5 — access exclusively via MuAPI
+
 ## Why the Gemini Omni API?
 
 **The Gemini Omni API is exclusively available on MuAPI** — no other API platform (Fal, Replicate, Runway, or others) currently offers access to Google Gemini Omni. If you want to use Google's native any-to-any multimodal video model programmatically, MuAPI is your only option today.
